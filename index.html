@@ -3,25 +3,43 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="We empower your space with expert handyman solutions. 
+	From repairs to renovations, our skilled team delivers reliable craftsmanship, 
+	ensuring your home is a haven of functionality and style. Discover seamless service today."/>
+		<meta name="Keywords" content="handyman solutions, handyman solutions in lagos. "/>
+		<meta name="author" content="Oloruntobi Grace"/>
+		<meta property="og:title" content="Handyman Solutions"/>
+		<meta property="og:description" content="Transforming homes with expert craftsmanship and reliable service,
+		 ensuring functionality and style in every project."/>
+		<meta property="0g:image" content=""/>
+		<meta property="0g:url" content="Index.html"/>
+		<meta name="twitter:title" content="Handyman Solutions"/>
+		<meta name="twitter:description" content="Transforming homes with expert craftsmanship and reliable service, 
+		ensuring functionality and style in every project."/>
+		<meta name="twitter:image" content=""/>
+		<meta name="twitter:url" content="Index.html"/>
+		<meta name="locale" content="US-en"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="fa/css/all.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<title>Handy Man</title>
 </head>
 <body>
  	<div class="container-fluid">
  			<!--Brand name and login/register section-->
 	 		<div class="row">
-	 			<div class="col-12">
+	 			<div class="col-12 pb-2">
 	 				<nav class="navbar navbar-expand-lg bg-body-tertiary">
-					  <div class="container-fluid ">
-					    <a class="navbar-brand" href="#">Navbar</a>
-					   	<div class="ms-auto pe-3">
-					      <ul class="navbar-nav pt-3">
-					        <li class="nav-item me-5">
+					  <div class="container-fluid">
+					    <a class="navbar-brand brandname" href="index.html">Handy</a>
+					   	<div class="ms-auto log_reg">
+					      <ul class="navbar-nav pt-3 ">
+					        <li class="nav-item mx-5">
 					          <a class="nav-link" href="#">Login</a>
 					        </li>
-					        <li class="nav-item me-5 ">
+					        <li class="nav-item mx-5 ">
 					          <a class="nav-link" href="#">Register</a>
 					        </li>
 					      </ul>
@@ -29,21 +47,22 @@
 					  </div>
 					</nav>
 	 			</div>
-	 			</div>
 	 		</div>
+	 		
 	 		<!--nav section-->
-		 	<div class="row">
+		 	<div class="row secnav">
 		 		<div class="col">
 		 			<nav class="navbar navbar-expand-lg bg-body-tertiary">
 					  <div class="container-fluid">
-					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navibar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					      <span class="navbar-toggler-icon"></span>
-					    </button>
-					    <div class="collapse navbar-collapse col-md-8 navibarpage" id="navibar">
-					      <ul class="navbar-nav">
-					        <li class="nav-item">
-					          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-					        </li>
+					    <button class="navbar-toggler" role="button" data-bs-toggle="offcanvas" href="#navigationbar" 
+						aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+					  </button>
+					    <div class="collapse navbar-collapse navibars ">
+					      <ul class="navbar-nav ">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							  </li>
 					        <li class="nav-item">
 					          <a class="nav-link" href="services.html">Services</a>
 					        </li>
@@ -51,44 +70,310 @@
 					          <a class="nav-link" href="hiw.html">How it Works</a>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link" href="hiw.html">About</a>
+					          <a class="nav-link" href="about.html">About</a>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link" href="hiw.html">Contact</a>
+					          <a class="nav-link" href="contact.html">Contact</a>
 					        </li>
+							<li class="nav-item">
+								<a class="nav-link" href="faq.html">FAQ</a>
+							  </li>
 					      </ul>
 					    </div>
-					    <form class="d-flex col-md-4" role="search">
+					    <form class="d-flex naviform" role="search">
 					      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					      <button class="btn btn-outline-success" type="submit">Search</button>
+					      <button class="btn btn-outline-primary" type="submit">Search</button>
 					    </form>
 					 
 					  </div>
 					</nav>
 		 		</div>
 		 	</div>
+				<!--navbar for small devices-->
+			<div class="offcanvas offcanvas-start showm d-xs-block d-lg-none" tabindex="-1" id="navigationbar"
+			aria-labelledby="navbarsection">
+				<div class="offcanvas-header">
+				<button type="button" class="btn-close btn-primary" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<div class="smalldevices">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="services.html">Services</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="hiw.html">How it Works</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
 
 
 
+		 	<!--Banner-section-->
+		 	<div class="row bannerbackground">
+		 			<div class="col">
+							<div id="bannerbg" class="carousel slide">
+								<div class="carousel-inner ">
+								  <div class="carousel-item active carousel-item-div">
+									<img src="images/carpenman2.jpg" class="d-block img-fluid" alt="picture of a carpenter man at work">
+									<div class="carotext">
+										<p>Your Reliable Partner for Home Solutions and Repairs</p>
+										<a href="services.html">Book Now</a>
+									  </div>
+									<div class="overlay"></div>
+								  </div>
+								  <div class="carousel-item carousel-item-div">
+									<img src="images/plumbman.jpg" class="d-block img-fluid" alt="picture of a plumber man at work">
+									<div class="carotext">
+										<p>Transforming Houses into Homes, One Repair at a Time</p>
+										<a href="services.html">Book Now</a>
+									  </div>
+									<div class="overlay"></div>
+								  </div>
+								  <div class="carousel-item carousel-item-div">
+								<img src="images/mechman.jpg" class="d-block img-fluid" alt="picture of a mechanic man at work">
+								<div class="carotext">
+									<p>Quality Handyman Services Tailored to Your Needs</p>
+									<a href="services.html">Book Now</a>
+								  </div>
+								<div class="overlay"></div>
+								  </div>
+								  <div class="carousel-item carousel-item-div">
+									<img src="images/carpenman2.jpg" class="d-block img-fluid" alt="picture of a carpenter man at work">
+									<div class="carotext">
+										<p>Your Trusted Choice For Reliable Home Repairs</p>
+										<a href="services.html">Book Now</a>
+									  </div>
+									<div class="overlay"></div>
+								  </div>
+								  <div class="carousel-item carousel-item-div">
+									<img src="images/electricman.jpg" class="d-block img-fluid" alt="picture of a electrician man at work">
+									<div class="carotext">
+										<p>Building Better Homes With Professional Handyman Expertise.</p>
+										<a href="services.html">Book Now</a>
+									  </div>
+									<div class="overlay"></div>
+								  </div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#bannerbg" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#bannerbg" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Next</span>
+								</button>
+						</div>
+					</div>
+						
+					
+					
+			</div>
 		 	
-		 	<div class="row">
-		 			<div class="col"></div>
-		 			<div class="col"></div>
+	 		<!--List of services section-->
+		 	<div class="row mx-4 servicessec">
+		 		<div class="col">
+					<div class="row">
+						<div class="col headerdiv" >
+							<h2>Services</h2>
+						</div>
+					</div>
+					<div class="row servicebarhead">
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+								<img src="images/plumber.png" alt="icon image of a plumber">
+								<h2>Plumbing Repairs</h2>
+								<p>Fixing leaks, installing pipes, and maintaining water systems in homes and businesses.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/electrician.png" alt="icon image of a electrician">
+								<h2>Electric Wiring</h2>
+								<p>Installation and repair of electric systems, ensuring safety and compliance with regulations.</p>
+								
+							</div>	
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/barber.png" alt="icon image of a barber">
+								<h2>Barbing</h2>
+								<p>Precision cuts tailored to your, using top-notch tools and techniques for polished look.</p>
+								
+							</div>
+						</div>
+					
+					</div>
+					<div class="row servicebarhead">
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/carpenter.png" alt="icon image of a carpenter">
+								<h2>Carpentary</h2>
+								<p>Crafting and installing furniture, shelves, and cabinets with precision and durability.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/painter.png" alt="icon image of a painter">
+								<h2>Painting Services</h2>
+								<p>Professional painting of interiors and exteriors, using high-quality paints for a fresh look.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/cleaner.png" alt="icon image of a cleaner">
+								<h2>Cleaning Services</h2>
+								<p>Efficient cleaaning services for homes and businesses, ensuring spotless results every time.
+								</p>
+								
+							</div>	
+						</div>
+					</div>
+					<div class="row servicebarhead">
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/roofing.png" alt="icon image showing a roofing repair">
+								<h2>Roofing Repairs</h2>
+								<p>Fixing leaks, replacing damaged shingles, and ensuring roofs are weatherproof and secure.</p>
+								
+							</div>	
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/gardener.png" alt="icon image of a gardener">
+								<h2>Gardening / Landscaping</h2>
+								<p>Designing and Maintaining gardens, including lawn mowing, planting, and irrigation.</p>
+								
+							</div>	
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/repairs.png" alt="icon image of a repair tool box">
+								<h2>Appliance Repair</h2>
+								<p>Fixing malfunctioning appliances such as refrigerators,  washing machines, and air conditioners.</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="row servicebarhead">
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/hairdresser.png" alt="icon image of a hairstylist">
+								<h2>hairdressing</h2>
+								<p>Creative hairdressing services tailored to your style, treatments for personalized and polished look.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/tile.png" alt="icon image of a tile layout">
+								<h2>Tile Installation</h2>
+								<p>Precision laying of tiles for floors, walls, and backsplashes, enhancing aesthetics and durability.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 servicebar" >
+							<div>
+							<img src="images/pestcontrol.png" alt="icon image of a pest control man">
+								<h2>Pest Control</h2>
+								<p>Eradicating pests like ants, termites, and rodents from homes using safe and effective methods.</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="row  servicebarhead2">
+                        <div class="col servicebar2">
+                            <a href="services.html">Book Now</a>
+                        </div>
+                    </div>
+				</div>
 		 	</div>
-	 		
+			<!--Testimonies section-->
 		 	<div class="row">
-		 		<div class="col"></div>
+		 		<div class="col testsection">
+					<div class="row">
+						<div class="col headerdiv">
+							<h2>Testimonies</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div id="testibar" class="carousel slide">
+								<div class="carousel-inner testsectionsub">
+								  <div class="carousel-item active">
+										<h3>Charles.E</h3>
+										<p>Great site, proffessional workers. </p>
+										<img src="images/rating2.png" alt="rating of five stars"/>
+								  </div>
+								  <div class="carousel-item">
+										<h3>Tammy O.</h3>
+										<p>Very satisfied with Services so far. </p>
+										<img src="images/rating1.png" alt="rating of four stars">
+								  </div>
+								  <div class="carousel-item">
+										<h3>Grace E.</h3>
+										<p>Great site, friendly experience. </p>
+										<img src="images/rating2.png" alt="rating of five stars"/>
+								  </div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#testibar" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#testibar" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Next</span>
+								</button>
+							  </div>
+						</div>
+					</div>
+				</div>
 		 	</div>
-
+			<!--Footer section-->
 		 	<div class="row">
-		 		<div class="col"></div>
+		 		<div class="col footer">
+					<a class="navbar-brand brandname" href="index.html">Handy</a>
+					<div class="footer-social">
+						<ul >
+							<li><a href="#"><img src="images/email.png" alt="Email link to contact us" onmousehover=" alert('Email us ')"></a></li>
+							<li><a href="#"><img src="images/facebook.png" alt="Facebook link to follow our page "></a></li>
+							<li><a href="#"><img src="images/instagram.png" alt="Instragram link to follow our page"></a></li>
+							<li><a href="#"><img src="images/x.png" alt="X link to catch you with new updates"></a></li>
+						</ul>
+					</div>
+					<div class="footer-pp">
+						<ul>
+							<li id="pp"><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Back to Top</a></li>
+						</ul>
+					</div>
+				</div>
 		 	</div>
-
-		 	<div class="row">
-		 		<div class="col"></div>
-		 	</div>
-
+			<!--copyright secion-->
+			<div class="row">
+				<div class="col cp">
+					<p>&copy; All right reserved Oloruntobi Grace 2024</p>
+				</div>
+			</div>
 	</div>
+
+
+
+
 
 <script  src="bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
 </body>

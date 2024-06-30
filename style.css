@@ -1,0 +1,394 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+body{
+	min-height:500px;
+	background:#fff;
+	color:black;
+	font-size:16px
+}
+
+.brandname{
+	font-size:50px;
+	color:#192bc2;
+}
+.brandname:hover{
+	color:#192bc2
+}
+.log_reg ul li a{
+	font-size:20px;
+	background-color:#192bc2;
+	padding:10px 30px !important;
+	color:#fff;
+	border-radius:10px;
+}
+.log_reg ul li a:hover{
+	background-color: #fff;
+	color:#192bc2; 
+	font-size: 30px;
+}
+.naviform{
+	margin-left:10px
+}
+.secnav{
+	position:sticky;
+	top:0px;
+	z-index:1000;
+	padding-bottom: 6px;
+}
+.navibars ul{
+	 width:100%;
+	 display: flex;
+	 justify-content: space-around;
+}
+.navibars ul li a{
+	color:#192bc2;
+	font-size:20px;
+}
+.navibars ul li a:hover{
+	font-size:25px;
+	color:#192bc2;
+	background-color:#fff;
+	border-radius: 10px;
+}
+.navibars ul li a:active{
+	color:#192bc2}
+
+	/*navs for small devices*/
+.offcanvas{
+	width:50%!important;
+	padding-left:20px;
+	
+}
+.smalldevices{
+	padding:10px;
+	min-height:300px;
+}
+.smalldevices ul li a{
+	font-size:30px;
+	color:#192bc2; 
+}
+.smalldevices ul li a:hover{
+	background:rgba(0, 0, 255, 0.1);
+}
+
+.bannerbackground{
+	width:100%;
+	min-height:400px !important;
+}
+.navbar-toggler-icon{
+	font-size: 50px;
+	color:#192bc2 !important;
+	background-image:none !important;
+	
+}
+.navbar-toggler{
+	line-height:0 !important;
+	padding: 0px !important;
+	padding-bottom: 0px !important;
+	margin: 0px !important;
+	border: none;
+}
+.navbar-toggler:focus{
+	outline:none;
+	box-shadow: none;
+	
+}
+
+
+
+.carousel-item-div img{
+	width:100%;
+	height: 500px !important;
+	position:relative !important;
+	
+}
+.carotext{
+	position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+	top:30%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+	z-index: 100;
+}
+.carotext p{
+	font-size:50px;
+}
+.carotext a{
+	padding:8px 15px;
+	margin-bottom: 10px;
+	font-size:25px;
+	background: #192bc2;
+	color:#fff !important;
+	border:none;
+	border-radius: 5px 15px 5px 15px;
+	text-decoration: none;
+}
+.carotext a:hover{
+	font-size:30px ;
+	padding:15px 20px;
+}
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 255, 0.2);
+	
+}
+.servicessec{
+	margin-top:100px;
+	background-color: rgb(248, 249, 250);
+}
+.headerdiv h2{
+	text-align: center;
+	font-size: 50px;
+	padding:30px 0px 70px 0px;
+	color:#192bc2;
+}
+.servicebarhead{
+	display: flex;
+	justify-content: space-around;
+}
+.servicebar{
+	text-align:center;
+	min-height: 300px;
+	margin-bottom:20px;
+	
+}
+.servicebar div{
+	padding:15px;
+	min-height:350px;
+}
+.servicebar img{
+	width:80px;
+	padding-bottom:10px;
+}
+.servicebar h2{
+	font-size:25px;
+}
+.servicebar p{
+	font-size: 16px;
+	padding: 10px 3px;
+}
+.servicebar a{
+	padding:8px 15px;
+	margin-bottom: 10px;
+	font-size:25px;
+	background: #192bc2;
+	color:#fff !important;
+	border:none;
+	border-radius: 5px 15px 5px 15px;
+	text-decoration: none;
+}
+.servicebar a:hover{
+	font-size:30px ;
+	padding:15px 20px;
+}
+.servicebarhead2{
+	display: flex;
+	justify-content: center;
+}
+.servicebar2{
+	text-align:center;
+	min-height: 100px;
+	margin-bottom:20px;
+	
+}
+.servicebar2 a{
+	padding:8px 15px;
+	margin-bottom: 10px;
+	font-size:25px;
+	background: #192bc2;
+	color:#fff !important;
+	border:none;
+	border-radius: 5px 15px 5px 15px;
+	text-decoration: none;
+}
+.servicebar2 a:hover{
+	font-size:30px ;
+	padding:15px 20px;
+}
+
+.testsection{
+	min-height: 200px;
+	margin-top: 100px;
+	background:rgb(248, 249, 250) ;
+}
+.testsectionsub{
+	text-align:center;
+	padding-bottom:10px
+}
+.testsectionsub img{
+	width:50px !important;
+	height: 50px !important;
+	padding:0px;
+}
+.footer{
+	text-align: center;
+	margin-top:100px;
+	background-color: rgb(248, 249, 250);
+	padding-top: 25px;
+}
+.footer-social ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin:0px 30px;
+	padding: 20px 0px;
+	text-align: center;
+}
+.footer-social ul li a{
+	text-decoration: none;
+}
+.footer-social ul li a img{
+	width:30px;
+	height:30px;
+}
+.footer-pp ul li{
+ 	list-style-type:none;
+}
+.footer-pp ul li a{
+	font-size:20px;
+}
+.footer-pp ul li#pp a{
+	text-decoration: none;
+	color:black;
+	padding-bottom:10px;
+	font-size:12px;
+}
+.cp{
+	text-align: center;
+	font-size:18px;
+	padding:20px 0px;
+}
+/*about us page content*/
+.aboutdes{
+	margin: auto;
+	margin-bottom: 100px;
+}
+.aboutdes p{
+	font-size:19px;
+	text-align: center;
+}
+.mands{
+	margin:auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.mands h3{
+	font-size:30px;
+	padding-bottom:30px;
+	color:#192bc2;
+}
+.mands p{
+	font-size: 19px ;
+}
+.aboutcon{
+	margin:auto;
+	text-align: center;
+	
+}
+.aboutcon h6{
+	font-size:22px;
+	padding-bottom:20px;
+	color:#192bc2;
+}
+.aboutcon p{
+	font-size:19px;
+}
+/*contact section*/
+.contactadd{
+	text-align: center;
+}
+.contactadd h6{
+	font-size:25px;
+	padding-bottom:20px;
+	color:#192bc2;
+}
+.contactadd p{
+	font-size:19px;
+}
+.contactform form{
+	background:rgb(248, 249, 250);
+	padding:20px 8px;
+	border-radius: 10px;
+}
+.contactform form div{
+	margin:15px 10px;
+
+}
+/*FAQ section*/
+.qands{
+	margin-top:20px;
+	margin-bottom: 50px;
+}
+.qands h4{
+	font-size:35px;
+	padding-bottom:30px;
+	color:#192bc2;
+	margin-left:30px;
+}
+.qands a{
+	text-decoration: none;
+	font-size:20px;
+	color:#192bc2;
+	padding:10px 5px;
+}
+.qands a:active{
+	color:greenyellow;
+}
+/*profilebox*/
+
+.profilebox .boxrow{
+	margin:25px 0px;
+	
+}
+.profilebox2{
+	min-height:300px;
+	background-color: rgb(248, 249, 250);
+}
+.imgbox{
+	min-height: 150px;
+	width:80%;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+.imgbox img{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: auto;
+	display: block;
+	background-image: url(images/user.png);
+	background-repeat: no-repeat;
+	background-attachment:scroll;
+	background-size: cover;
+	background-position:center;
+	
+
+
+}
+.profdescription{
+	min-height: 120px;
+	width:100%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.profdescription h4{
+	font-size:18px;
+	
+}
+.profdescription p{
+	font-size: 15px;
+}
